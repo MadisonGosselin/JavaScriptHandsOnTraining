@@ -1,1 +1,1 @@
-JS, ESLint and Prettier
+Excersies from Hands On Introduction: JavaScript
