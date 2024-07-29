@@ -5,7 +5,7 @@
  * - Use the lat and lon data from the geocoding response to fetch weather data.
  */
 
-import settings from "../settings.js";
+import settings from "../../../settings.js";
 import weatherCard from "./components/weathercard.js";
 
 const mainContent = document.querySelector(".main-content");

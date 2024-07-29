@@ -7,7 +7,7 @@
  * - https://developer.mozilla.org/en-US/docs/Web/API/fetch
  */
 
-import settings from "../settings.js";
+import settings from "../../../settings.js";
 
 const tempField = document.querySelector(".getTemp");
 const windSpeed = document.querySelector(".getWSpeed");
