@@ -23,23 +23,25 @@ const tempTranslator = (temp, unit) => {
   }
 };
 
-const speedTranslator = (speed, units) => {
+const speedTranslator = (speed, unit) => {
   const allSpeeds = {
-    metric: {
+    m: {
       value: speed,
       unit: "m/s",
     },
-    imperial: {
+    i: {
       value: speed * 3.281,
       unit: "ft/s",
     },
   };
-  if (units === "metric") {
-    return allSpeeds.metric;
-  } else if (units === "imperial") {
-    return allSpeeds.imperial;
+  console.log(allSpeeds);
+  if (unit === "metric") {
+    return allSpeeds.m;
+  }
+  if (unit === "imperial") {
+    return allSpeeds.i;
   } else {
-    return allSpeeds.metric;
+    return allSpeeds.m;
   }
 };
 
